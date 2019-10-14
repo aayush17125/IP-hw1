@@ -35,7 +35,9 @@ for j in range (0,len(metadata)):
             print(sum)
         elif metadata[j][1]=='F':
             for i in range(0,len(puzzle)):
-                sum+=float(puzzle[i][j])
+                sum+=float(puzzle[i][j])    
             print(sum)
         else:
             print("Cannot sum")
+end_time = time.time()
+print(end_time-start_time)
